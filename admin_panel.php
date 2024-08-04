@@ -27,7 +27,7 @@
 	<!--box icon link-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 	
-	<title>admin pannel</title>
+	<title>Admin Panel</title>
 </head>
 <body>
 	<?php include 'admin_header.php'; ?>
