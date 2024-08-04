@@ -10,9 +10,9 @@
 <body>
 	<header class="header">
 		<div class="flex">
-			<a href="admin_pannel.php" class="logo"><img src="img/logo.png"></a>
+			<a href="admin_panel.php" class="logo"><img src="img/logo.png"></a>
 			<nav class="navbar">
-				<a href="admin_pannel.php">home</a>
+				<a href="admin_panel.php">home</a>
 				<a href="admin_product.php">products</a>
 				<a href="admin_order.php">orders</a>
 				<a href="admin_user.php">users</a>
