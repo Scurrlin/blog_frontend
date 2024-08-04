@@ -234,7 +234,7 @@
     	</div>
     </div>
     <?php include 'footer.php'; ?>
-    <script src="jquary.js"></script>
+    <script src="jquery.js"></script>
     <script src="slick.js"></script>
 
     <script type="text/javascript">
