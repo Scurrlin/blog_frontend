@@ -18,9 +18,9 @@
 	if (isset($_GET['delete'])) {
 		$delete_id = $_GET['delete'];
 		
-		mysqli_query($conn, "DELETE FROM `message` WHERE id = '$delete_id'") or die('query failed');
-
-		header('location:admin_message.php');
+		mysqli_query($conn, "DELETE FROM `users` WHERE id = '$delete_id'") or die('query failed');
+		$message[]='user removed successfuly';
+		header('location:admin_user.php');
 	}
 	
 ?>
@@ -57,21 +57,21 @@
 	?>
 	<div class="line4"></div>
 	<section class="message-container">
-		<h1 class="title">unread message</h1>
+		<h1 class="title">total user account</h1>
 		<div class="box-container">
 			<?php 
-				$select_message = mysqli_query($conn,"SELECT * FROM `message`") or die('query failed');
-				if (mysqli_num_rows($select_message)>0) {
-					while($fetch_message = mysqli_fetch_assoc($select_message)){
+				$select_users = mysqli_query($conn,"SELECT * FROM `users`") or die('query failed');
+				if (mysqli_num_rows($select_users)>0) {
+					while($fetch_users = mysqli_fetch_assoc($select_users)){
 
 
 			?>
 			<div class="box">
-				<p>user id: <span><?php echo $fetch_message['id']; ?></span></p>
-				<p>name: <span><?php echo $fetch_message['name']; ?></span></p>
-				<p>email: <span><?php echo $fetch_message['email']; ?></span></p>
-				<p><?php echo $fetch_message['message']; ?></p>
-				<a href="admin_message.php?delete=<?php echo $fetch_message['id']; ?>;" onclick="return confirm('delete this message');" class="delete">delete</a>
+				<p>user id: <span><?php echo $fetch_users['id']; ?></span></p>
+				<p>name: <span><?php echo $fetch_users['name']; ?></span></p>
+				<p>email: <span><?php echo $fetch_users['email']; ?></span></p>
+				<p>user type : <span style="color:<?php if($fetch_users['user_type']=='admin'){echo 'orange';}; ?>"><?php echo $fetch_users['user_type']; ?></span></p>
+				<a href="admin_user.php?delete=<?php echo $fetch_users['id']; ?>;" onclick="return confirm('delete this message');" class="delete">delete</a>
 			</div>
 			<?php 
 					}
