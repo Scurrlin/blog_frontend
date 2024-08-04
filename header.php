@@ -10,7 +10,7 @@
 <body>
 	<header class="header">
 		<div class="flex">
-			<a href="admin_pannel.php" class="logo"><img src="img/logo.png"></a>
+			<a href="admin_panel.php" class="logo"><img src="img/logo.png"></a>
 			<nav class="navbar">
 				<a href="index.php">home</a>
 				<a href="about.php">about us</a>
