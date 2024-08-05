@@ -63,7 +63,7 @@ if (isset($_POST['add_to_cart'])) {
     <link rel="stylesheet" type="text/css" href="slick.css" />
     <!------------------------default css link------------------------------->
     <link rel="stylesheet" href="main.css">
-    <title>veggen - home page</title>
+    <title>Veggian - Home</title>
 </head>
 
 <body>
