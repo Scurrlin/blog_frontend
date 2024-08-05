@@ -24,7 +24,7 @@
             $message[]='product already exist in cart';
         }else{
             mysqli_query($conn, "INSERT INTO `wishlist`(`user_id`,`pid`,`name`,`price`,`image`) VALUES('$user_id','$product_id','$product_name','$product_price','$product_image')");
-            $message[]='product successfuly added in your wishlist';
+            $message[]='product successfuly added to your wishlist';
         }
     }
 
