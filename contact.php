@@ -42,7 +42,7 @@
     <div class="banner">
         <div class="detail">
             <h1>contact</h1>
-            <p>Need help with anything? Just want to say hi? Send us a message below!</p>
+            <p>Need help with anything? Just want to say hello? Send us a message below!</p>
         </div>
     </div>
     <div class="line"></div>
@@ -52,22 +52,22 @@
             <div class="box">
                 <img src="img/0.png">
                 <div>
-                    <h1>Free Shipping Fast</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h1>Free, Fast Shipping</h1>
+                    <p>Enjoy reliable delivery service at no extra cost!</p>
                 </div>
             </div>
             <div class="box">
                 <img src="img/1.png">
                 <div>
-                    <h1>Money Back & Guarantee</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h1>Money Back Guarantee</h1>
+                    <p>Shop with confidence!</p>
                 </div>
             </div>
             <div class="box">
                 <img src="img/2.png">
                 <div>
                     <h1>Online Support 24/7</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>We're here to help anytime!</p>
                 </div>
             </div>
         </div>
@@ -98,29 +98,28 @@
     <div class="line"></div>
     <div class="line2"></div>
     <div class="address">
-        <h1 class="title">our contact</h1>
+        <h1 class="title">Contact Info</h1>
         <div class="row">
             <div class="box">
                 <i class="bi bi-map-fill"></i>
                 <div>
-                    <h4>address</h4>
-                    <p>1093 Marigold Lane,
-                        Coral Way,<br> Miami,
-                        Florida, 33169</p>
+                    <h4>apiary address</h4>
+                    <p>510 Patterson Road,<br>
+                    Baxley, Georgia, 31513</p>
                 </div>
             </div>
             <div class="box">
                 <i class="bi bi-telephone-fill"></i>
                 <div>
                     <h4>phone number</h4>
-                    <p>9900887755</p>
+                    <p>990-088-7755</p>
                 </div>
             </div>
             <div class="box">
                 <i class="bi bi-envelope-fill"></i>
                 <div>
                     <h4>email</h4>
-                    <p>selenaAnsari@gmail.com</p>
+                    <p>Veggian@gmail.com</p>
                 </div>
             </div>
         </div>

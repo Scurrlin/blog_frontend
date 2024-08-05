@@ -147,7 +147,7 @@ if (isset($_POST['add_to_cart'])) {
                 <div class="testimonial-caption">
                     <span>Jane from Lynn, MA</span>
                     <h1>Clover Honey (5/5)</h1>
-                    <p>I recently purchased the clover honey from Veggian and my GOODNESS! I'm absolutely thrilled with the quality. The flavor is rich and aromatic, just as described. <br>
+                    <p>I recently purchased the Clover Honey from Veggian and my GOODNESS! I'm absolutely thrilled with the quality. The flavor is rich and aromatic, just as described. <br>
                     The fast, free shipping was a pleasant surprise, and the customer support team was incredibly responsive. <br>
                     Highly recommend to anyone looking for top-quality, delicious honey!</p>
                 </div>
