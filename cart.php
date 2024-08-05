@@ -92,7 +92,7 @@
                     <button type="submit" name="add_to_cart" class="bi bi-cart"></button>
                 </div>
                 <img src="image/<?php echo $fetch_cart['image']; ?>">
-                <div class="price">$<?php echo $fetch_cart['price']; ?>/-</div>
+                <div class="price">$<?php echo $fetch_cart['price']; ?></div>
                 <div class="name"><?php echo $fetch_cart['name']; ?></div>
                 <form method="post">
                     <input type="hidden" name="update_qty_id" value="<?php echo $fetch_cart['id']; ?>">
@@ -118,7 +118,7 @@
             <a href="cart.php?delete_all" class="btn2" onclick="return confirm('do you want to delete all items in your wishlist')">remove all</a>
         </div>
         <div class="wishlist_total">
-            <p>total amount: <span>$<?php echo $grand_total; ?>/-</span></p>
+            <p>total amount: <span>$<?php echo $grand_total; ?></span></p>
             <a href="shop.php" class="btn">continue shopping</a>
             <a href="checkout.php" class="btn <?php echo ($grand_total>1)?'':'disabled'?>">proceed to checkout</a>
 

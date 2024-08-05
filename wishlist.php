@@ -93,7 +93,7 @@
             ?>
             <form method="post" class="box">
                 <img src="image/<?php echo $fetch_wishlist['image']; ?>">
-                <div class="price">$<?php echo $fetch_wishlist['price']; ?>/-</div>
+                <div class="price">$<?php echo $fetch_wishlist['price']; ?></div>
                 <div class="name"><?php echo $fetch_wishlist['name']; ?></div>
                 <input type="hidden" name="product_id" value="<?php echo $fetch_wishlist['id']; ?>">
                 <input type="hidden" name="product_name" value="<?php echo $fetch_wishlist['name']; ?>">
@@ -115,7 +115,7 @@
             ?>
         </div>
         <div class="wishlist_total">
-            <p>total amount: <span>$<?php echo $grand_total; ?>/-</span></p>
+            <p>total amount: <span>$<?php echo $grand_total; ?></span></p>
             <a href="shop.php" class="btn">continue shopping</a>
             <a href="wishlist.php?delete_all" class="btn <?php echo ($grand_total)?'':'disabled'?>" onclick="return confirm('do you want to delete all items in your wishlist')">remove all</a>
         </div>

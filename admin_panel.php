@@ -42,7 +42,7 @@
 						$total_pendings += $fetch_pending['total_price'];
 					}
 				?>
-				<h3>$ <?php echo $total_pendings; ?>/-</h3>
+				<h3>$ <?php echo $total_pendings; ?></h3>
 				<p>total pendings</p>
 			</div>
 			<div class="box">
@@ -53,7 +53,7 @@
 						$total_completes += $fetch_completes['total_price'];
 					}
 				?>
-				<h3>$ <?php echo $total_completes; ?>/-</h3>
+				<h3>$ <?php echo $total_completes; ?></h3>
 				<p>total completes</p>
 			</div>
 			<div class="box">
