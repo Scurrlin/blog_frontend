@@ -31,7 +31,6 @@
             <h1>about us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor.</p>
-            <a href="index.php">home</a><span>/ about us</span>
         </div>
     </div>
     <div class="line"></div>

@@ -44,7 +44,6 @@
             <h1>contact</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor.</p>
-            <a href="index.php">home</a><span>/ contact</span>
         </div>
     </div>
     <div class="line"></div>
@@ -76,22 +75,22 @@
     </div>
     <div class="line4"></div>
     <div class="form-container">
-        <h1 class="title">leave a message</h1>
+        <h1 class="title">send us a message!</h1>
         <form method="post">
             <div class="input-field">
-                <label>your name</label><br>
+                <label>name</label><br>
                 <input type="text" name="name">
             </div>
             <div class="input-field">
-                <label>your email</label><br>
+                <label>email</label><br>
                 <input type="text" name="email">
             </div>
             <div class="input-field">
-                <label>number</label><br>
+                <label>phone number</label><br>
                 <input type="number" name="number">
             </div>
             <div class="input-field">
-                <label>your message</label><br>
+                <label>message</label><br>
                 <textarea name="message"></textarea>
             </div>
             <button type="submit" name="submit-btn">send message</button>

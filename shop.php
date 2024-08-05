@@ -66,7 +66,6 @@
             <h1>our shop</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor.</p>
-            <a href="index.php">home</a><span>/ shop</span>
         </div>
     </div>
     <div class="line"></div>
