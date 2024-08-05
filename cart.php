@@ -88,7 +88,7 @@
             <div class="box">
                 <div class="icon">
                     <a href="view_page.php?pid=<?php echo $fetch_cart['id']; ?>" class="bi bi-eye-fill"></a>
-                    <a href="cart.php?delete=<?php echo $fetch_cart['id']; ?>" class="bi bi-x" onclick="return confirm('do you want to delete this product from your cart')"></a>
+                    <a href="cart.php?delete=<?php echo $fetch_cart['id']; ?>" class="bi bi-x" onclick="return confirm('Do you want to remove this product from your cart?')"></a>
                     <button type="submit" name="add_to_cart" class="bi bi-cart"></button>
                 </div>
                 <img src="image/<?php echo $fetch_cart['image']; ?>">
