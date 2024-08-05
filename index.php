@@ -77,7 +77,7 @@ if (isset($_POST['add_to_cart'])) {
                 <div class="slider-caption">
                     <span>Trust The Science behind</span>
                     <h1>Premium Organic<br> Beetox</h1>
-                    <p>Experience Beetox, the natural alternative to Botox, harnessing bee venom to reduce wrinkles <br> and enhance skin elasticity for a youthful glow.</p>
+                    <p>Experience Beetox, the natural alternative to Botox, harnessing bee venom to reduce wrinkles <br> and enhance skin elasticity for a youthful glow</p>
                     <a href="" class="btn">shop now</a>
                 </div>
             </div>
@@ -86,7 +86,7 @@ if (isset($_POST['add_to_cart'])) {
                 <div class="slider-caption">
                     <span>Taste The Quality of</span>
                     <h1>Premium Organic<br> Honey</h1>
-                    <p>Indulge in the sweet, aromatic flavors of our honey, crafted by dedicated artisans <br> using ecologically clean raw materials.</p>
+                    <p>Indulge in the sweet, aromatic flavors of our honey, crafted by dedicated artisans <br> using ecologically clean raw materials</p>
                     <a href="" class="btn">shop now</a>
                 </div>
             </div>

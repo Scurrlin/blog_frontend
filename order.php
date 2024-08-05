@@ -42,7 +42,7 @@
     <div class="banner">
         <div class="detail">
             <h1>your orders</h1>
-            Shop with confidence, knowing that your personal information is protected every step of the way.</p>
+            Shop with confidence, knowing that your personal information is protected every step of the way</p>
         </div>
     </div>
     <div class="line"></div>

@@ -61,15 +61,13 @@
     <div class="banner">
         <div class="detail">
             <h1>my wishlist</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.</p>
-            <a href="index.php">home</a><span>/ wishlist</span>
+            <p>Not ready to buy something now? Add it to your wishlist!</p>
         </div>
     </div>
     <div class="line"></div>
     <!-----------------------about us------------------------>
     <section class="shop">
-        <h1 class="title">products added in wishlist</h1>
+        <h1 class="title">Products Added to Wishlist</h1>
         
         <?php 
             if (isset($message)) {
@@ -117,9 +115,9 @@
             ?>
         </div>
         <div class="wishlist_total">
-            <p>total amount payable : <span>$<?php echo $grand_total; ?>/-</span></p>
-            <a href="shop.php" class="btn">continue shoping</a>
-            <a href="wishlist.php?delete_all" class="btn <?php echo ($grand_total)?'':'disabled'?>" onclick="return confirm('do you want to delete all items in your wishlist')">delete all</a>
+            <p>total amount: <span>$<?php echo $grand_total; ?>/-</span></p>
+            <a href="shop.php" class="btn">continue shopping</a>
+            <a href="wishlist.php?delete_all" class="btn <?php echo ($grand_total)?'':'disabled'?>" onclick="return confirm('do you want to delete all items in your wishlist')">remove all</a>
         </div>
     </section>
     <?php include 'footer.php'; ?>

@@ -55,14 +55,13 @@
     <div class="banner">
         <div class="detail">
             <h1>my cart</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.</p>
+            <p>Double check your order here before finalizing your purchase</p>
         </div>
     </div>
     <div class="line"></div>
     <!-----------------------about us------------------------>
     <section class="shop">
-        <h1 class="title">products added in cart</h1>
+        <h1 class="title">Products Added to Cart</h1>
         
         <?php 
             if (isset($message)) {
@@ -103,7 +102,7 @@
                     </div>
                 </form>
                 <div class="total-amt">
-                    Total Amount : <span><?php echo $total_amt = ($fetch_cart['price']*$fetch_cart['quantity']) ?></span>
+                    Total Amount: <span><?php echo $total_amt = ($fetch_cart['price']*$fetch_cart['quantity']) ?></span>
                 </div>
             </div>
 
@@ -116,11 +115,11 @@
             ?>
         </div>
         <div class="dlt">
-            <a href="cart.php?delete_all" class="btn2" onclick="return confirm('do you want to delete all items in your wishlist')">delete all</a>
+            <a href="cart.php?delete_all" class="btn2" onclick="return confirm('do you want to delete all items in your wishlist')">remove all</a>
         </div>
         <div class="wishlist_total">
-            <p>total amount payable : <span>$<?php echo $grand_total; ?>/-</span></p>
-            <a href="shop.php" class="btn">continue shoping</a>
+            <p>total amount: <span>$<?php echo $grand_total; ?>/-</span></p>
+            <a href="shop.php" class="btn">continue shopping</a>
             <a href="checkout.php" class="btn <?php echo ($grand_total>1)?'':'disabled'?>">proceed to checkout</a>
 
         </div>
