@@ -29,7 +29,7 @@
     <div class="banner">
         <div class="detail">
             <h1>about us</h1>
-            <p>It all began with a man, aquiet town, and a relentless pursuit of the perfect honey...</p>
+            <p>It all began with a man, a quiet town, and a relentless pursuit of the perfect honey...</p>
         </div>
     </div>
     <div class="line"></div>
@@ -39,16 +39,10 @@
         <div class="row">
             <div class="box">
                 <div class="title">
-                    <span>ABOUT OUR ONLINE STORE</span>
-                    <h1>Hello, With 25 years of experience</h1>
+                    <span>The Story of John Honey</span>
+                    <h1>"Yep, I think this here's the one..."</h1>
                 </div>
-                <p>Over 25 years Ecommerce helping companies reach their financial and branding goals.
-
-                    The perfect way to enjoy brewing tea on low hanging fruit to identify. Duis autem vel eum iriure
-                    dolor in hendrerit in
-                    vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. For me,
-                    the most important part of
-                    improving at photography.</p>
+                <p>25 years ago, those exact words were spoken by the founder of Veggian, John Honey. John worked as a fry cook in a local dive bar in Georgia with his future wife Jane Bee. One day, after a particularly active Football Sunday, the dive bar ran out of hot sauce for their signature wings. While Jane frantically called around to other bars in the area, John calmly walked out to his pickup. He returned to the kitchen and plopped down a jar of what would become Veggian's famous "Hot Honey".</p>
             </div>
             <div class="img-box">
                 <img src="img/about3.jpg">
@@ -100,8 +94,8 @@
                     <img src="img/team.jpg">
                 </div>
                 <div class="detail">
-                    <span>Finace Manager</span>
-                    <h4>Miguel Rodrigez</h4>
+                    <span>Finance Manager</span>
+                    <h4>James Conway</h4>
                     <div class="icons">
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-youtube"></i>
@@ -116,8 +110,8 @@
                     <img src="img/te.jpg">
                 </div>
                 <div class="detail">
-                    <span>Finace Manager</span>
-                    <h4>Miguel Rodrigez</h4>
+                    <span>Brand Ambassador</span>
+                    <h4>Lauren Johnson</h4>
                     <div class="icons">
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-youtube"></i>
@@ -132,8 +126,8 @@
                     <img src="img/team1.jpg">
                 </div>
                 <div class="detail">
-                    <span>Finace Manager</span>
-                    <h4>Miguel Rodrigez</h4>
+                    <span>Head of Sales</span>
+                    <h4>Jorge Riviera</h4>
                     <div class="icons">
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-youtube"></i>
@@ -148,8 +142,8 @@
                     <img src="img/team2.jpg">
                 </div>
                 <div class="detail">
-                    <span>Finace Manager</span>
-                    <h4>Miguel Rodrigez</h4>
+                    <span>Head of Marketing</span>
+                    <h4>Allison Stapleton</h4>
                     <div class="icons">
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-youtube"></i>
@@ -164,8 +158,8 @@
                     <img src="img/team0.jpg">
                 </div>
                 <div class="detail">
-                    <span>Finace Manager</span>
-                    <h4>Miguel Rodrigez</h4>
+                    <span>Nepo Hire</span>
+                    <h4>Chad Honey</h4>
                     <div class="icons">
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-youtube"></i>
@@ -181,8 +175,8 @@
     <div class="line4"></div>
     <div class="project">
         <div class="title">
-            <h1>Our Best Project</h1>
-            <span>how it works</span>
+            <h1>Honey 2020</h1>
+            <span>John's Love Letter to Georgia</span>
         </div>
         <div class="row">
             <div class="box">
@@ -197,35 +191,29 @@
     <div class="line2"></div>
     <div class="ideas">
         <div class="title">
-            <h1>We And Our Clients Are Happy To Cooperate With Our Company</h1>
-            <span>our features</span>
+            <h1>From 2020-2030, 10% of Veggian's profits will go to repairing Georgia's infrastructure</h1>
+            <span>key initiatives</span>
         </div>
         <div class="row">
             <div class="box">
                 <i class="bi bi-stack"></i>
                 <div class="detail">
-                    <h2>What We Really Do</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                        mattis, pulvinar dapibus
-                        leo.</p>
+                    <h2>Overhaul Public Schools</h2>
+                    <p>No longer will teachers need to choose between school supplies and groceries. Veggian will provide the suppport our public schools desperately need.</p>
                 </div>
             </div>
             <div class="box">
                 <i class="bi bi-grid-1x2-fill"></i>
                 <div class="detail">
-                    <h2>History of Beginning</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                        mattis, pulvinar dapibus
-                        leo.</p>
+                    <h2>Restore Forgotten Neighborhoods</h2>
+                    <p>Just because your community isn't gated doesn't mean it isn't worth the upkeep. Veggian will ensure that rundown neighborhoods are fully restored.</p>
                 </div>
             </div>
             <div class="box">
                 <i class="bi bi-tropical-storm"></i>
                 <div class="detail">
-                    <h2>Our Vision</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                        mattis, pulvinar dapibus
-                        leo.</p>
+                    <h2>Embrace Local Workers</h2>
+                    <p>As Veggian expands, it will prioritize Georgia residents for it's open positions. Even if you don't have the skills, we will be happy to teach you.</p>
                 </div>
             </div>
         </div>
