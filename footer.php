@@ -26,8 +26,8 @@
 					<li>orders</li>
 					<li>help center</li>
 					<li>shipping</li>
-					<li>term of use</li>
-					<li>accout detail</li>
+					<li>terms of use</li>
+					<li>account detail</li>
 					<li>my account</li>
 				</ul>
 			</div>
@@ -36,17 +36,17 @@
 				<ul>
 					<li>mumbai</li>
 					<li>new delhi</li>
-					<li>san fransco</li>
 					<li>los angeles</li>
+					<li>boston</li>
 					<li>chicago</li>
 					<li>new york city</li>
 				</ul>
 			</div>
 			<div class="card">
 				<h3>newsletter</h3>
-				<p>Sign up for the latest Ice offers and exclusives</p>
+				<p>Sign up for free samples and exclusive offers!</p>
 				<div class="input-field">
-					<input type="text" name="" placeholder="email address..">
+					<input type="text" name="" placeholder="Your Email Here">
 					<i class="bi bi-envelope"></i>
 				</div>
 				<div class="social-links">
