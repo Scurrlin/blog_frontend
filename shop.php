@@ -72,7 +72,7 @@
     <div class="line"></div>
     <!-----------------------about us------------------------>
     <section class="shop">
-        <h1 class="title">shop best sellers</h1>
+        <h1 class="title">Check out our Best Sellers!</h1>
         
         <?php 
             if (isset($message)) {
