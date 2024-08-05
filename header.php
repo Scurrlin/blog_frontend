@@ -33,7 +33,7 @@
 				<i class="bi bi-list" id="menu-btn"></i>
 			</div>
 			<div class="user-box">
-				<p>username : <span><?php echo $_SESSION['user_name']; ?></span></p>
+				<p>Username : <span><?php echo $_SESSION['user_name']; ?></span></p>
 				<p>Email : <span><?php echo $_SESSION['user_email']; ?></span></p>
 				<form method="post">
 					<button type="submit" name="logout" class="logout-btn">log out</button>

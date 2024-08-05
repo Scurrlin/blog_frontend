@@ -57,13 +57,13 @@
 			}
 		?>
 		<form method="post">
-			<h1>register now</h1>
-			<input type="text" name="name" placeholder="enter your name" required>
-			<input type="email" name="email" placeholder="enter your email" required>
-			<input type="password" name="password" placeholder="enter your password" required>
-			<input type="password" name="cpassword" placeholder="confirm your password" required>
-			<input type="submit" name="submit-btn" value="register now" class="btn">
-			<p>already have an account ? <a href="login.php">login now</a></p>
+			<h1>register</h1>
+			<input type="text" name="name" placeholder="Enter your name" required>
+			<input type="email" name="email" placeholder="Enter your email" required>
+			<input type="password" name="password" placeholder="Enter your password" required>
+			<input type="password" name="cpassword" placeholder="Confirm your password" required>
+			<input type="submit" name="submit-btn" value="register" class="btn">
+			<p>Already have an account? <a href="login.php">Login here!</a></p>
 		</form>
 	</section>
 </body>
