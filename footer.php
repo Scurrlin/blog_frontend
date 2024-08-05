@@ -13,40 +13,40 @@
 				<h3>about us</h3>
 				<ul>
 					<li>about us</li>
-					<li>our difference</li>
-					<li>community matters</li>
-					<li>press</li>
-					<li>bouqs video</li>
-					<li>blog</li>
+					<li>the veggian difference</li>
+					<li>community spotlight</li>
+					<li>local events</li>
+					<li>busy bee blog</li>
+					<li>news</li>
 				</ul>
 			</div>
 			<div class="card">
 				<h3>services</h3>
 				<ul>
-					<li>orders</li>
+					<li>customer support</li>
 					<li>help center</li>
-					<li>shipping</li>
-					<li>terms of use</li>
-					<li>account detail</li>
 					<li>my account</li>
+					<li>account details</li>
+					<li>orders</li>
+					<li>shipping</li>
 				</ul>
 			</div>
 			<div class="card">
-				<h3>local</h3>
+				<h3>locations</h3>
 				<ul>
-					<li>mumbai</li>
-					<li>new delhi</li>
+					<li>new york city</li>
 					<li>los angeles</li>
 					<li>boston</li>
 					<li>chicago</li>
-					<li>new york city</li>
+					<li>atlanta</li>
+					<li>houston</li>
 				</ul>
 			</div>
 			<div class="card">
 				<h3>newsletter</h3>
-				<p>Sign up for free samples and exclusive offers!</p>
+				<p>Sign up for exclusive offers!</p>
 				<div class="input-field">
-					<input type="text" name="" placeholder="Your Email Here">
+					<input type="text" name="" placeholder="Enter Your Email Here!">
 					<i class="bi bi-envelope"></i>
 				</div>
 				<div class="social-links">

@@ -20,10 +20,10 @@
 
 <body>
     <section class="popular-brands">
-    	<h2>POPULAR BRANDS</h2>
+    	<h2>HONEY CAROUSEL</h2>
     	<div class="controls">
-            <i class="bi bi-chevron-left left"></i>
-            <i class="bi bi-chevron-right right"></i>
+            <i class="bi bi-chevron-left right"></i>
+            <i class="bi bi-chevron-right left"></i>
         </div>
         <?php 
 		if (isset($message)) {

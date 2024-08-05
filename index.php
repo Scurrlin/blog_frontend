@@ -75,21 +75,18 @@ if (isset($_POST['add_to_cart'])) {
             <div class="slider-item">
                 <img src="img/slider.jpg" alt="...">
                 <div class="slider-caption">
-                    <span>Taste The Quality</span>
-                    <h1>Organics Premium <br> Honey</h1>
-                    <p>Enjoy sweet, aromatic honey made by hardworking people of <br> ecologically clean raw materials in the
-                        most pure environment!</p>
+                    <span>Trust The Science behind</span>
+                    <h1>Premium Organic<br> Beetox</h1>
+                    <p>Experience Beetox, the natural alternative to Botox, harnessing bee venom to reduce wrinkles <br> and enhance skin elasticity for a youthful glow.</p>
                     <a href="" class="btn">shop now</a>
                 </div>
             </div>
             <div class="slider-item">
                 <img src="img/slider2.png" alt="...">
                 <div class="slider-caption">
-                    <span>Taste The Quality</span>
-                    <h1>Organics Premium <br> Honey</h1>
-                    <p>Enjoy sweet, aromatic honey made by hardworking people of <br> ecologically clean raw materials
-                        in the
-                        most pure environment!</p>
+                    <span>Taste The Quality of</span>
+                    <h1>Premium Organic<br> Honey</h1>
+                    <p>Indulge in the sweet, aromatic flavors of our honey, crafted by dedicated artisans <br> using ecologically clean raw materials.</p>
                     <a href="" class="btn">shop now</a>
                 </div>
             </div>
@@ -105,22 +102,22 @@ if (isset($_POST['add_to_cart'])) {
             <div class="box">
                 <img src="img/0.png">
                 <div>
-                    <h1>Free Shipping Fast</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h1>Free, Fast Shipping</h1>
+                    <p>Enjoy reliable delivery service at no extra cost!</p>
                 </div>
             </div>
             <div class="box">
                 <img src="img/1.png">
                 <div>
-                    <h1>Money Back & Guarantee</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h1>Money Back Guarantee</h1>
+                    <p>Shop with confidence!</p>
                 </div>
             </div>
             <div class="box">
                 <img src="img/2.png">
                 <div>
                     <h1>Online Support 24/7</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>We're here to help anytime!</p>
                 </div>
             </div>
         </div>
@@ -129,13 +126,9 @@ if (isset($_POST['add_to_cart'])) {
     <div class="story">
         <div class="row">
             <div class="box">
-                <span>our story</span>
-                <h1>Production of natural honey since 1990</h1>
-                <p>Interdum Et Malesuada Fames Ac Ante Ipsum Primis In Faucibus. Vestibulum Laoreet Est Orci, Eu
-                    Placerat Est Posuere In.
-                    Sed Malesuada Magna Vitae Pulvinar Varius. Orci Varius Nato Que Penatibus Et Magnis Dis Parturient
-                    Montes, Ridiculus
-                    Mus. Integer Vel Nisi Lorem. Donec Dignissim Commodo Rhon Cus. Nullam.</p>
+                <span>Our Story</span>
+                <h1>Sweetening The Deal Since 1990</h1>
+                <p>Our journey began with a relentless passion for nature's finest nectar and a dedication to quality. Nestled in the heart of the Georgia countryside, our apiary thrives amidst blooming fields and pristine landscapes. Our beekeepers work tirelessly to ensure each jar of honey is pure, aromatic, and ecologically sourced. From our family to yours, we invite you to savor the exquisite flavors and natural goodness that our bees lovingly create. Join us in celebrating the sweet, golden essence of life—one jar at a time.</p>
                 <a href="shop.php" class="btn">shop now</a>
             </div>
             <div class="box">
@@ -147,40 +140,36 @@ if (isset($_POST['add_to_cart'])) {
     <!-- testimonial -->
     <div class="line4"></div>
     <div class="testimonial-fluid">
-        <h1 class="title">What Our Customers Say's</h1>
+        <h1 class="title">What Our Customers Say</h1>
         <div class="testimonial-slider">
             <div class="testimonial-item">
                 <img src="img/3.jpg">
                 <div class="testimonial-caption">
-                    <span>Test The Quality</span>
-                    <h1>Organic Premium Honey</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-
+                    <span>Jane from Lynn, MA</span>
+                    <h1>Clover Honey (5/5)</h1>
+                    <p>I recently purchased the clover honey from Veggian and my GOODNESS! I'm absolutely thrilled with the quality. The flavor is rich and aromatic, just as described. <br>
+                    The fast, free shipping was a pleasant surprise, and the customer support team was incredibly responsive. <br>
+                    Highly recommend to anyone looking for top-quality, delicious honey!</p>
                 </div>
             </div>
             <div class="testimonial-item">
                 <img src="img/4.jpg">
                 <div class="testimonial-caption">
-                    <span>Test The Quality</span>
-                    <h1>Organic Premium Honey</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
+                    <span>Megan from Revere, MA</span>
+                    <h1>Hot Honey (5/5)</h1>
+                    <p>I ran into Jane at SoulCycle and my GOD she would not shut up about this honey she bought from this Veggian site. I said "Fine, God, I'll buy some!" <br>
+                    It was one of the best deicisions I've ever made! This stuff is so good it has me thinking I was a bear in a past life. <br>
+                    Jane is annoying, but hey, at least she knows her honey!</p>
                 </div>
             </div>
             <div class="testimonial-item">
                 <img src="img/profile.jpg">
                 <div class="testimonial-caption">
-                    <span>Test The Quality</span>
-                    <h1>Organic Premium Honey</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
+                    <span>Kyle from Swampscott, MA</span>
+                    <h1>Manuka Honey (5/5)</h1>
+                    <p>I teach the SoulCycle class that Jane and Megan go to and honestly, they're both awful. They always reek of booze, but man do they know their honey! <br>
+                    I was particularly drawn to the Manuka Honey because I'm a vacuous, superficial moron, and it was everything that I hoped it would be. <br>
+                    Teaching SoulCycle sucks, but at least I get good honey recommendations!</p>
                 </div>
             </div>
         </div>
@@ -194,16 +183,11 @@ if (isset($_POST['add_to_cart'])) {
     <div class="line2"></div>
     <div class="discover">
         <div class="detail">
-            <h1 class="title">Organic Honey Be Healthy</h1>
+            <h1 class="title">🐝 Bee Healthy with Organic Honey 🐝</h1>
             <span>Buy Now And Save 30% Off!</span>
-            <p>lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The
-                Industry's
-                Standard
-                Dummy Text Ever Since The 1500s, When An Unknown Printer Took A Galley Of Type And Scrambled It To Make
-                A
-                Type Specimen
-                Book.</p>
-            <a href="shop.php" class="btn">discover now</a>
+            <br>
+            <br>
+            <a href="shop.php" class="btn">shop now</a>
         </div>
         <div class="img-box">
             <img src="img/13.png">
@@ -213,11 +197,11 @@ if (isset($_POST['add_to_cart'])) {
     <?php include 'homeshop.php'; ?>
     <div class="line2"></div>
     <div class="newslatter">
-        <h1 class="title">Join Our To Newslatter</h1>
-        <p>Get 15% off your next order. Be the first to learn about promotions special events, new arrivals and more.
+        <h1 class="title">Subscribe To Our Newsletter</h1>
+        <p>Get 15% off your next order and be the first to learn about promotions, special events, new arrivals and more!
         </p>
-        <input type="text" name="" placeholder="your Email Address...">
-        <button>subscribe now</button>
+        <input type="text" name="" placeholder="Enter Your Email Here!">
+        <button>subscribe</button>
     </div>
     <div class="line3"></div>
     <div class="client">
