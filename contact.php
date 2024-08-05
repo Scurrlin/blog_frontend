@@ -42,8 +42,7 @@
     <div class="banner">
         <div class="detail">
             <h1>contact</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.</p>
+            <p>Need help with anything? Just want to say hi? Send us a message below!</p>
         </div>
     </div>
     <div class="line"></div>

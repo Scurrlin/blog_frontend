@@ -29,8 +29,7 @@
     <div class="banner">
         <div class="detail">
             <h1>about us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.</p>
+            <p>In a relentless pursuit of purity, Veggian brings nature's sweetness to your table.</p>
         </div>
     </div>
     <div class="line"></div>

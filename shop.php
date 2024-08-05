@@ -64,14 +64,13 @@
     <div class="banner">
         <div class="detail">
             <h1>our shop</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.</p>
+            <p>Peruse our wares and make sure to try our signature Hot Honey that started it all!</p>
         </div>
     </div>
     <div class="line"></div>
     <!-----------------------about us------------------------>
     <section class="shop">
-        <h1 class="title">Check out our Best Sellers!</h1>
+        <h1 class="title">Check Out Our Flavors Below!</h1>
         
         <?php 
             if (isset($message)) {
