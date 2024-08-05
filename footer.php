@@ -59,7 +59,7 @@
 			</div>
 		</div>
 		<div class="bottom-footer">
-			<p>all right reserved - code with selena</p>
+			<p>All Rights Reserved - GC 2024</p>
 		</div>
 	</footer>
 </body>
