@@ -41,7 +41,7 @@
     <?php include 'header.php'; ?>
     <div class="banner">
         <div class="detail">
-            <h1>contact</h1>
+            <h1>contact us</h1>
             <p>Need help with anything? Just want to say hello? Send us a message below!</p>
         </div>
     </div>

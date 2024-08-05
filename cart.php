@@ -98,7 +98,7 @@
                     <input type="hidden" name="update_qty_id" value="<?php echo $fetch_cart['id']; ?>">
                     <div class="qty">
                         <input type="number" min="1" name="update_qty" value="<?php echo $fetch_cart['quantity']; ?>">
-                        <input type="submit" name="update_qty_btn" value="update">
+                        <input type="submit" name="update_qty_btn" value="Update Quantity">
                     </div>
                 </form>
                 <div class="total-amt">

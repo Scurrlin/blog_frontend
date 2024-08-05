@@ -41,7 +41,7 @@
             $message[]='product already exist in cart';
         }else{
             mysqli_query($conn, "INSERT INTO `cart`(`user_id`,`pid`,`name`,`price`,`quantity`,`image`) VALUES('$user_id','$product_id','$product_name','$product_price','$product_quantity','$product_image')");
-            $message[]='product successfuly added in your cart';
+            $message[]='product successfuly added to your cart';
         }
     }
 ?>
