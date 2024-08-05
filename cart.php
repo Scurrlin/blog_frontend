@@ -102,7 +102,7 @@
                     </div>
                 </form>
                 <div class="total-amt">
-                    Total Amount: <span><?php echo $total_amt = ($fetch_cart['price']*$fetch_cart['quantity']) ?></span>
+                    Total Amount: <span>$<?php echo $total_amt = ($fetch_cart['price']*$fetch_cart['quantity']) ?></span>
                 </div>
             </div>
 
