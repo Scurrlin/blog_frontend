@@ -29,7 +29,7 @@
     <div class="banner">
         <div class="detail">
             <h1>about us</h1>
-            <p>In a relentless pursuit of purity, Veggian brings nature's sweetness to your table</p>
+            <p>It all began with a man, aquiet town, and a relentless pursuit of the perfect honey...</p>
         </div>
     </div>
     <div class="line"></div>
@@ -60,29 +60,29 @@
     <div class="line4"></div>
     <div class="features">
         <div class="title">
-            <h1>Complete Customer Ideas</h1>
-            <span>best features</span>
+            <h1>Comprehensive Customer Support</h1>
+            <span>for all new and returning patrons</span>
         </div>
         <div class="row">
             <div class="box">
                 <img src="img/icon2.png">
-                <h4>24 X 7</h4>
-                <p>Online Support 27/7</p>
+                <h4>24/7/365</h4>
+                <p>Nonstop Online Support</p>
             </div>
             <div class="box">
                 <img src="img/icon1.png">
                 <h4>Money Back Guarantee</h4>
-                <p>100% Secure Payment</p>
+                <p>100% Secure Payment Options</p>
             </div>
             <div class="box">
                 <img src="img/icon0.png">
-                <h4>Special Gift Card</h4>
-                <p>Give The Perfect Gift</p>
+                <h4>Gift Cards</h4>
+                <p>Give The Gift of Sweetness</p>
             </div>
             <div class="box">
                 <img src="img/icon.png">
-                <h4>Worldwide Shipping</h4>
-                <p>On Order Over $99</p>
+                <h4>Free Worldwide Shipping</h4>
+                <p>On Orders Over $99</p>
             </div>
         </div>
     </div>
@@ -91,8 +91,8 @@
     <div class="line2"></div>
     <div class="team">
         <div class="title">
-            <h1>Our Workable Team</h1>
-            <span>best team</span>
+            <h1>Meet Our Team!</h1>
+            <span>The Veggian Family</span>
         </div>
         <div class="row">
             <div class="box">
