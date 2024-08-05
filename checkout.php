@@ -53,15 +53,13 @@
     <?php include 'header.php'; ?>
     <div class="banner">
         <div class="detail">
-            <h1>order</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.</p>
-            <a href="index.php">home</a><span>/ order</span>
+            <h1>checkout</h1>
+            <p>Confirm your order here before entering payment details below!</p>
         </div>
     </div>
     <div class="line"></div>
     <div class="checkout-form">
-        <h1 class="title">payment process</h1>
+        <h1 class="title">Payment Info</h1>
         <?php 
             if (isset($message)) {
                 foreach ($message as $message) {
@@ -97,57 +95,55 @@
                     }
                 ?>
             </div>
-            <span class="grand-total">Total Amount Payable : $<?= $grand_total; ?></span>
+            <span class="grand-total">Total Amount: $<?= $grand_total; ?></span>
         </div>
         <form method="post">
             <div class="input-field">
                 <label>your name</label>
-                <input type="text" name="name" placeholder="enter your name">
+                <input type="text" name="name" placeholder="Enter your name">
             </div>
             <div class="input-field">
-                <label>your number</label>
-                <input type="number" name="number" placeholder="enter your number">
+                <label>your phone number</label>
+                <input type="number" name="number" placeholder="Enter your phone number">
             </div>
             <div class="input-field">
                 <label>your email</label>
-                <input type="text" name="email" placeholder="enter your email">
+                <input type="text" name="email" placeholder="Enter your email">
             </div>
 
             <div class="input-field">
                 <label>select payment method</label>
                 <select name="method">
-                    <option selected disabled>select payment method</option>
-                    <option value="cash on delivery">cash on delivery</option>
-                    <option value="cradit card">cradit card</option>
-                    <option value="paytm">paytm</option>
-                    <option value="paypal">paypal</option>   
+                    <option selected disabled>Select Payment Method</option>
+                    <option value="credit card">Credit Card</option>
+                    <option value="debit card">Debit Card</option>  
                 </select>
             </div>
             <div class="input-field">
                 <label>address line 1</label>
-                <input type="text" name="flate" placeholder="e.g flate no.">
+                <input type="text" name="flate" placeholder="123 Main Street">
             </div>
             <div class="input-field">
                 <label>address line 2</label>
-                <input type="text" name="street" placeholder="e.g street name">
+                <input type="text" name="street" placeholder="Apartment 2">
             </div>
             <div class="input-field">
                 <label>city</label>
-                <input type="text" name="city" placeholder="e.g  delhi">
+                <input type="text" name="city" placeholder="Somewhere">
             </div>
             <div class="input-field">
                 <label>state</label>
-                <input type="text" name="state" placeholder="e.g new delhi">
+                <input type="text" name="state" placeholder="Georgia">
             </div>
             <div class="input-field">
                 <label>country</label>
-                <input type="text" name="country" placeholder="e.g India">
+                <input type="text" name="country" placeholder="United States">
             </div>
             <div class="input-field">
-                <label>pin code</label>
-                <input type="text" name="pin" placeholder="e.g 110012">
+                <label>zip code</label>
+                <input type="text" name="pin" placeholder="12345">
             </div>
-            <input type="submit" name="order_btn" class="btn" value="order now">
+            <input type="submit" name="order_btn" class="btn" value="submit order">
         </form>
     </div>
     <?php include 'footer.php'; ?>

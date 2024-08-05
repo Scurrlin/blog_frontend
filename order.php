@@ -71,7 +71,7 @@
                 }else{
                         echo '
                             <div class="empty">
-                                <p>no order placed yet!</p>
+                                <p>no orders placed yet!</p>
                             </div>
                         ';
                 }
