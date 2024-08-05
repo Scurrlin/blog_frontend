@@ -41,7 +41,7 @@
     <?php include 'header.php'; ?>
     <div class="banner">
         <div class="detail">
-            <h1>order</h1>
+            <h1>your orders</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor.</p>
         </div>
