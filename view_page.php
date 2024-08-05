@@ -64,9 +64,7 @@
     <div class="banner">
         <div class="detail">
             <h1>product detail</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor.</p>
-            <a href="index.php">home</a><span>/ shop</span>
+            <p>Want to learn more about a particular honey? Read on below!</p>
         </div>
     </div>
     <div class="line"></div>

@@ -33,9 +33,8 @@
 	</header>
 	<div class="banner">
 		<div class="detail">
-			<h1>admin dashboard</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor.</p>
+			<h1>Admin Dashboard</h1>
+			<p>Welcome to the admin dashboard!</p>
 		</div>
 	</div>
 	<div class="line"></div>
