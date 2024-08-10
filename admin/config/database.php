@@ -1,9 +1,9 @@
 <?php
-require 'constants.php';
+require 'config/constants.php';
 
-// connect to the database
-$connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+$connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, DB_PORT, DB_SOCKET);
 
-if (mysqli_errno($connection)) {
-    die(mysqli_error($connection));
+if ($connection->connect_errno) {
+    die('Connection failed: (' . $connection->connect_errno . ') ' . $connection->connect_error);
 }
+?>
