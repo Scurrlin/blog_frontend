@@ -11,25 +11,24 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- GOOGLE FONT (MONTSERRAT) -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <nav>
         <div class="container nav__container">
             <a href="index.html" class="nav__logo">EGATOR</a>
             <ul class="nav__items">
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="http://localhost:8000/blog.php">Blog</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="http://localhost:8000/services.php">Services</a></li>
+                <li><a href="http://localhost:8000/contact.php">Contact</a></li>
                 <!-- <li><a href="signin.html">Signin</a></li> -->
                 <li class="nav__profile">
                     <div class="avatar">
                         <img src="./images/avatar1.jpg">
                     </div>
                     <ul>
-                        <li><a href="dashboard.html">Dashboard</a></li>
-                        <li><a href="logout.html">Logout</a></li>
+                        <li><a href="http://localhost:8000/dashboard.php">Dashboard</a></li>
+                        <li><a href="http://localhost:8000/logout.php">Logout</a></li>
                     </ul>
                 </li>
             </ul>
@@ -40,10 +39,6 @@
     </nav>
     <!--====================== END OF NAV ====================-->
 
-
-
-
-
 <section class="dashboard">
     <div class="container dashboard__container">
         <button id="show__sidebar-btn" class="sidebar__toggle"><i class="uil uil-angle-right-b"></i></button>
@@ -51,32 +46,32 @@
         <aside>
             <ul>
                 <li>
-                    <a href="add-post.html"><i class="uil uil-pen"></i>
+                    <a href="http://localhost:8000/add-post.php"><i class="uil uil-pen"></i>
                         <h5>Add Post</h5>
                     </a>
                 </li>
                 <li>
-                    <a href="dashboard.html" class="active"><i class="uil uil-postcard"></i>
+                    <a href="http://localhost:8000/dashboard.php" class="active"><i class="uil uil-postcard"></i>
                         <h5>Manage Posts</h5>
                     </a>
                 </li>
                 <li>
-                    <a href="add-user.html"><i class="uil uil-user-plus"></i>
+                    <a href="http://localhost:8000/add-user.php"><i class="uil uil-user-plus"></i>
                         <h5>Add User</h5>
                     </a>
                 </li>
                 <li>
-                    <a href="manage-users.html"><i class="uil uil-users-alt"></i>
+                    <a href="http://localhost:8000/manage-users.php"><i class="uil uil-users-alt"></i>
                         <h5>Manage User</h5>
                     </a>
                 </li>
                 <li>
-                    <a href="add-category.html"><i class="uil uil-edit"></i>
+                    <a href="http://localhost:8000/add-category.php"><i class="uil uil-edit"></i>
                         <h5>Add Category</h5>
                     </a>
                 </li>
                 <li>
-                    <a href="manage-categories.html"><i class="uil uil-list-ul"></i>
+                    <a href="http://localhost:8000/manage-categories.php"><i class="uil uil-list-ul"></i>
                         <h5>Manage Categories</h5>
                     </a>
                 </li>
@@ -97,35 +92,15 @@
                     <tr>
                         <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
                         <td>Wild Life</td>
-                        <td><a href="edit-post.html" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                        <td><a href="http://localhost:8000/edit-post.php?id=1" class="btn sm">Edit</a></td>
+                        <td><a href="http://localhost:8000/delete-post.php?id=1" class="btn sm danger">Delete</a></td>
                     </tr>
-                    <tr>
-                        <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
-                        <td>Wild Life</td>
-                        <td><a href="edit-post.html" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
-                        <td>Wild Life</td>
-                        <td><a href="edit-post.html" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
-                        <td>Wild Life</td>
-                        <td><a href="edit-post.html" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
-                    </tr>
+                    <!-- Repeat similar rows as needed, updating the `href` attributes with appropriate IDs -->
                 </tbody>
             </table>
         </main>
     </div>
 </section>
-
-
-
 
 <footer>
     <div class="footer__socials">
@@ -139,12 +114,12 @@
         <article>
             <h4>Categories</h4>
             <ul>
-                <li><a href="">Art</a></li>
-                <li><a href="">Wild Life</a></li>
-                <li><a href="">Travel</a></li>
-                <li><a href="">Music</a></li>
-                <li><a href="">Science & Technology</a></li>
-                <li><a href="">Food</a></li>
+                <li><a href="http://localhost:8000/category.php?category=art">Art</a></li>
+                <li><a href="http://localhost:8000/category.php?category=wildlife">Wild Life</a></li>
+                <li><a href="http://localhost:8000/category.php?category=travel">Travel</a></li>
+                <li><a href="http://localhost:8000/category.php?category=music">Music</a></li>
+                <li><a href="http://localhost:8000/category.php?category=science-technology">Science & Technology</a></li>
+                <li><a href="http://localhost:8000/category.php?category=food">Food</a></li>
             </ul>
         </article>
         <article>
@@ -160,21 +135,21 @@
         <article>
             <h4>Blog</h4>
             <ul>
-                <li><a href="">Safety</a></li>
-                <li><a href="">Repair</a></li>
-                <li><a href="">Recent</a></li>
-                <li><a href="">Popular</a></li>
-                <li><a href="">Categories</a></li>
+                <li><a href="http://localhost:8000/category.php?category=safety">Safety</a></li>
+                <li><a href="http://localhost:8000/category.php?category=repair">Repair</a></li>
+                <li><a href="http://localhost:8000/category.php?category=recent">Recent</a></li>
+                <li><a href="http://localhost:8000/category.php?category=popular">Popular</a></li>
+                <li><a href="http://localhost:8000/category.php?category=categories">Categories</a></li>
             </ul>
         </article>
         <article>
             <h4>Permalinks</h4>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="http://localhost:8000/index.php">Home</a></li>
+                <li><a href="http://localhost:8000/blog.php">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="http://localhost:8000/services.php">Services</a></li>
+                <li><a href="http://localhost:8000/contact.php">Contact</a></li>
             </ul>
         </article>
     </div>
@@ -182,7 +157,6 @@
         <small>Copyright &copy; 2022 EGATOR TUTORIALS</small>
     </div>
 </footer>
-
 
 <script src="js/main.js"></script>
 </body>

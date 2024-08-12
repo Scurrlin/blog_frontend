@@ -11,25 +11,24 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- GOOGLE FONT (MONTSERRAT) -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <nav>
         <div class="container nav__container">
             <a href="index.html" class="nav__logo">EGATOR</a>
             <ul class="nav__items">
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="http://localhost:8000/blog.php">Blog</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="http://localhost:8000/services.php">Services</a></li>
+                <li><a href="http://localhost:8000/contact.php">Contact</a></li>
                 <!-- <li><a href="signin.html">Signin</a></li> -->
                 <li class="nav__profile">
                     <div class="avatar">
                         <img src="./images/avatar1.jpg">
                     </div>
                     <ul>
-                        <li><a href="dashboard.html">Dashboard</a></li>
-                        <li><a href="logout.html">Logout</a></li>
+                        <li><a href="http://localhost:8000/dashboard.php">Dashboard</a></li>
+                        <li><a href="http://localhost:8000/logout.php">Logout</a></li>
                     </ul>
                 </li>
             </ul>
@@ -47,9 +46,9 @@
         <div class="alert__message error">
             <p>This is an error message</p>
         </div>
-        <form action="">
-            <input type="text" placeholder="Title">
-            <textarea rows="4" placeholder="Description"></textarea>
+        <form action="http://localhost:8000/add-category.php" method="POST">
+            <input type="text" name="title" placeholder="Title">
+            <textarea rows="4" name="description" placeholder="Description"></textarea>
             <button type="submit" class="btn">Add Category</button>
         </form>
     </div>
@@ -99,11 +98,11 @@
         <article>
             <h4>Permalinks</h4>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="http://localhost:8000/index.php">Home</a></li>
+                <li><a href="http://localhost:8000/blog.php">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="http://localhost:8000/services.php">Services</a></li>
+                <li><a href="http://localhost:8000/contact.php">Contact</a></li>
             </ul>
         </article>
     </div>

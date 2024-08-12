@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- GOOGLE FONT (MONTSERRAT) -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
 </head>
 <body>
-
 
 <section class="form__section">
     <div class="container form__section-container">
@@ -22,23 +20,22 @@
         <div class="alert__message error">
             <p>This is an error message</p>
         </div>
-        <form action="" enctype="multipart/form-data">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="Username">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Create Password">
-            <input type="password" placeholder="Confirm Password">
+        <form action="http://localhost:8000/signup.php" method="POST" enctype="multipart/form-data">
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Create Password" required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
             <div class="form__control">
                 <label for="avatar">User Avatar</label>
-                <input type="file" id="avatar">
+                <input type="file" id="avatar" name="avatar">
             </div>
             <button type="submit" class="btn">Sign Up</button>
-            <small>Already have an account? <a href="signin.html">Sign In Here</a></small>
+            <small>Already have an account? <a href="http://localhost:8000/signin.php">Sign In Here</a></small>
         </form>
     </div>
 </section>
-
 
 </body>
 </html>
