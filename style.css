@@ -626,7 +626,6 @@ input, textarea, select {
         animation-delay: 800ms;
     }
 
-
     /* nav dropdown animation */
     @keyframes animateDropdown {
         0% {
@@ -675,7 +674,6 @@ input, textarea, select {
         grid-template-columns: 1fr 1fr;
         gap: 3rem;
     }
-
 
     /* ============= BLOG =========== */
     .search__bar-container {
@@ -792,6 +790,7 @@ input, textarea, select {
         height: 100vh;
         transition: var(--transition);
         background: var(--color-primary);
+        z-index: 2;
     }
 
     .dashboard .sidebar__toggle {
