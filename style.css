@@ -685,7 +685,6 @@ input, textarea, select {
         padding: 3rem;
     }
 
-
     /* ============= DASHBOARD =========== */
     .dashboard__container {
         grid-template-columns: 4.3rem auto;
@@ -790,7 +789,6 @@ input, textarea, select {
         height: 100vh;
         transition: var(--transition);
         background: var(--color-primary);
-        z-index: 2;
     }
 
     .dashboard .sidebar__toggle {
